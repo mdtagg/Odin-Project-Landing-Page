@@ -121,10 +121,8 @@ ul a {
 }
 
 .info-picture-element p {
-    /* display:flex; */
     display:flex;
     text-align:center;
-    
 }
 
 .info-picture {
@@ -153,6 +151,55 @@ ul a {
     font-weight:900;
     width:100%;
     text-align: right;
+}
+
+.signup-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    background-color: white;
+}
+
+.signup-box {
+    display:flex;
+    background-color: #3882f6;
+    border-radius:5px;
+    color:white;
+    width:900px;
+    padding:40px 70px;
+    margin:70px 0px;
+} 
+
+.signup-info {
+    padding-left:60px;
+    width:50%;
+}
+
+.signup-button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:50%;
+}
+
+.signup-button button {
+    background:transparent;
+    border-radius: 5px;
+    border:2px solid white;
+    color:white;
+    padding: 5px 25px;
+    margin-left:20px;
+    font-weight:700;
+}
+
+.signup-one {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.signup-two {
+    font-weight:100;
 }
 
 
