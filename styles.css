@@ -202,4 +202,13 @@ ul a {
     font-weight:100;
 }
 
+.footer {
+    background-color: #1f2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding:20px 0px;
+}
+
 
